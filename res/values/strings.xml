@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="leng">Length Converter</string>
+    <string name="massc">Mass Converter</string>
+    <string name="speedc">Speed Converter</string>
+    <string name="areac">Area Converter</string>
+    <string name="fuelc">Fuel Consumption Converter</string>
+    <string name="digitalc">Digital Storage Converter</string>
+    <string name="tempc">Temperature Converter</string>
+	<string-array name="lengthconverter">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+        <item>Mile</item>
+        <item>Yard</item>
+        <item>Foot</item>
+        <item>Inch</item>
+        <item>Nautical Mile</item>
+    </string-array>
+    <string-array name="massconverter">
+        <item>Metric Ton</item>
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Mcg</item>
+        <item>Long Ton</item>
+        <item>Short Ton</item>
+        <item>Stone</item>
+        <item>Pound</item>
+        <item>Ounce</item>
+    </string-array>
+    <string-array name="speedconverter">
+		<item>Miles/hour</item>
+		<item>Feet/second</item>
+		<item>Metre/second</item>
+		<item>Km/hour</item>
+		<item>Knot</item>        
+    </string-array>
+    <string-array name="areaconverter">
+		<item>SquareKm</item>
+		<item>Hectare</item>
+		<item>SquareMeter</item>
+		<item>SquareMile</item>
+		<item>Acre</item>
+		<item>SquareYard</item>
+		<item>SquareFoot</item>
+		<item>SquareInch</item>        
+    </string-array>
+    <string-array name="fuelconverter">
+        <item>MPG(US)</item>
+        <item>MPG(imp.)</item>
+        <item>KmpLiter</item>
+        <item>Literper100km</item>
+    </string-array>
+    <string-array name="digitalconverter">
+		<item>Byte</item>
+		<item>KiloByte</item>
+		<item>MegaByte</item>
+		<item>GigaByte</item>
+		<item>TeraByte</item>
+		<item>PetaByte</item>        
+    </string-array>
+    <string-array name="temperatureconverter">
+        <item>Celsius</item>
+        <item>Fahrenhiet</item>
+        <item>Kelvin</item>
+    </string-array>
+        <string name="inches">Inches</string>
+</resources>

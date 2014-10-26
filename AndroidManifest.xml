@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.panda.converter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.panda.converter.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.panda.converter.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.panda.converter.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.panda.converter.LengthConverter"
+            android:label="@string/leng" >
+            <intent-filter>
+                <action android:name="com.panda.converter.LENGTHCONVERTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.panda.converter.MassConverter"
+            android:label="@string/massc" >
+            <intent-filter>
+                <action android:name="com.panda.converter.MASSCONVERTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.panda.converter.SpeedConverter"
+            android:label="@string/speedc" >
+            <intent-filter>
+                <action android:name="com.panda.converter.SPEEDCONVERTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.panda.converter.AreaConverter"
+            android:label="@string/areac" >
+            <intent-filter>
+                <action android:name="com.panda.converter.AREACONVERTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.panda.converter.FuelConverter"
+            android:label="@string/fuelc" >
+            <intent-filter>
+                <action android:name="com.panda.converter.FUELCONVERTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.panda.converter.DigitalStorageConverter"
+            android:label="@string/digitalc" >
+            <intent-filter>
+                <action android:name="com.panda.converter.DIGITALSTORAGECONVERTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.panda.converter.TemperatureConverter"
+            android:label="@string/tempc" >
+            <intent-filter>
+                <action android:name="com.panda.converter.TEMPERATURECONVERTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

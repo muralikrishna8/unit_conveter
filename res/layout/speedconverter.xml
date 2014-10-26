@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9900"
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/speedtextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/speedbutton1"
+        android:layout_below="@+id/speedspinner1"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="TO"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/speededitText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Enter number"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/speedspinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/speededitText1"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/speedtextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/speedbutton1"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/speedspinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/speedtextView2" />
+
+    <Button
+        android:id="@+id/speedbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speedspinner2"
+        android:layout_centerHorizontal="true"
+        android:text="convert" />
+
+</RelativeLayout>

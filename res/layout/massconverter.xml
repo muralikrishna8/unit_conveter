@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89a4f2"
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/masstextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/massbutton1"
+        android:layout_below="@+id/massspinner1"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="TO"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/masseditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Enter number"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/massspinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/masseditText1"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/masstextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/massbutton1"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/massspinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/masstextView2" />
+
+    <Button
+        android:id="@+id/massbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/massspinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="convert" />
+
+</RelativeLayout>
