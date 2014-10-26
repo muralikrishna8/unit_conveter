@@ -1,1 +1,1 @@
-This is a smalle unit converter application developed for android.
+This is a small unit converter application developed for android.
